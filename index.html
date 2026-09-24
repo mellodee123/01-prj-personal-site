@@ -2,10 +2,124 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Personal Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The personal portfolio of an aspiring animator and digital media creator.">
+  <title>Melody Wilson | Animator and Digital Media Creator</title>
+  <!-- Font Awesome provides the icons used in the skills list. -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  <!-- The header contains the site name and navigation links. -->
+  <header class="site-header">
+    <div class="container navigation">
+      <a class="logo" href="#top">Melody Wilson<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#top">Home</a>
+        <a href="#bio">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- The hero area gives visitors a quick introduction. -->
+    <section class="hero">
+      <div class="container hero-content">
+        <p class="eyebrow">Aspiring animator &amp; digital media creator</p>
+        <h1>Ideas brought to life through <span>motion and story.</span></h1>
+        <p class="hero-text">Welcome to my growing portfolio. I create visual work through animation, design, video, and storytelling.</p>
+        <a class="button" href="#contact">Let's connect</a>
+      </div>
+    </section>
+
+    <!-- Add your future class and portfolio projects in these cards. -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <p class="section-label">01 / Projects</p>
+        <h2>Work in progress.</h2>
+        <div class="project-list">
+          <article class="project-card">
+            <p class="project-number">01</p>
+            <h3>Animation Project</h3>
+            <p>A space to share a future animation, short film, or 3D scene.</p>
+          </article>
+          <article class="project-card">
+            <p class="project-number">02</p>
+            <h3>Design Project</h3>
+            <p>A space to showcase future character designs, illustrations, or storyboards.</p>
+          </article>
+          <article class="project-card">
+            <p class="project-number">03</p>
+            <h3>Video Project</h3>
+            <p>A space to feature future motion graphics, video edits, or visual stories.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- The skills list makes your current strengths easy to scan. -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <p class="section-label">02 / Skills</p>
+        <h2>Tools, craft, and collaboration.</h2>
+        <ul class="skills-list">
+          <li><i class="fa-solid fa-cube skill-icon" aria-hidden="true"></i><div class="skill-text"><strong>Blender</strong><span>3D Modeling &amp; Sculpting</span></div></li>
+          <li><i class="fa-solid fa-film skill-icon" aria-hidden="true"></i><div class="skill-text"><strong>Adobe Animate</strong><span>Digital Animation</span></div></li>
+          <li><i class="fa-solid fa-palette skill-icon" aria-hidden="true"></i><div class="skill-text"><strong>Adobe Photoshop &amp; Illustrator</strong></div></li>
+          <li><i class="fa-solid fa-video skill-icon" aria-hidden="true"></i><div class="skill-text"><strong>Video Editing</strong><span>CapCut / DaVinci Resolve</span></div></li>
+          <li><i class="fa-solid fa-pen-ruler skill-icon" aria-hidden="true"></i><div class="skill-text"><strong>Storyboarding</strong><span>Visual Storytelling</span></div></li>
+          <li><i class="fa-solid fa-pen-nib skill-icon" aria-hidden="true"></i><div class="skill-text"><strong>Creative Writing</strong><span>Scriptwriting</span></div></li>
+          <li><i class="fa-solid fa-person skill-icon" aria-hidden="true"></i><div class="skill-text"><strong>Character Design &amp; Rigging</strong><span>In progress</span></div></li>
+          <li><i class="fa-solid fa-clock skill-icon" aria-hidden="true"></i><div class="skill-text"><strong>Time Management</strong><span>Deadline-Driven Work</span></div></li>
+          <li><i class="fa-solid fa-people-group skill-icon" aria-hidden="true"></i><div class="skill-text"><strong>Team Collaboration</strong><span>Communication</span></div></li>
+          <li><i class="fa-solid fa-bolt skill-icon" aria-hidden="true"></i><div class="skill-text"><strong>Quick Learner</strong><span>Self-directed Skill Building</span></div></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- The bio section now appears below the skills and projects sections. -->
+    <section id="bio" class="section">
+      <div class="container two-column">
+        <div>
+          <p class="section-label">03 / About me</p>
+          <h2>Creative, curious, and ready to grow.</h2>
+        </div>
+        <div class="bio-copy">
+          <p>Aspiring animator and digital media creator with hands-on experience in Blender, Maya, and Adobe Creative Suite. Currently completing a Bachelor of Digital Media in Game Animation at Elmhurst University.</p>
+          <p>Background in fast-paced, deadline-driven environments with a strong track record of reliability, precision, and teamwork. Eager to apply creative and technical skills to animation, motion graphics, or video production roles.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Replace the LinkedIn placeholder with your profile link when ready. -->
+    <section id="contact" class="section contact-section">
+      <div class="container contact-content">
+        <div>
+          <p class="section-label">04 / Contact</p>
+          <h2>Have a project in mind?</h2>
+          <p>I am always open to learning, collaborating, and connecting with creative teams.</p>
+        </div>
+        <div class="contact-details">
+          <p><span>Email</span><a href="mailto:melody.wilson71@yahoo.com">melody.wilson71@yahoo.com</a></p>
+          <p><span>Location</span>Elmhurst, Illinois</p>
+          <p><span>LinkedIn</span><a href="#">Add your LinkedIn profile</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- The footer closes the page with a simple copyright line. -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Melody Wilson. Built while learning web development.</p>
+    </div>
+  </footer>
+
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="cursor-trail" aria-hidden="true"></div>
+  <script src="script.js"></script>
 </body>
 </html>
